@@ -7,7 +7,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # --- 1. DIRECT API CONFIGURATION ---
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBSDSIVc4dkBO6msUSmWdfbt3HZE0ItdOU"
+os.environ["GOOGLE_API_KEY"] = "Enter Google API Key:" # your google api key ai studio
 
 st.set_page_config(page_title="Gemini Multi-File Chat", layout="wide")
 st.title("🚀 Gemini Multi-Format RAG")
@@ -95,4 +95,5 @@ for chat in reversed(st.session_state.chat_history):
     with st.chat_message("user"):
         st.write(chat["title"])
     with st.chat_message("assistant"):
+
         st.markdown(chat["answer"])
