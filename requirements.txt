@@ -7,4 +7,6 @@ faiss-cpu
 pypdf
 sentence-transformers
 tiktoken
+google-genai
+google-generativeai
 python-dotenv
