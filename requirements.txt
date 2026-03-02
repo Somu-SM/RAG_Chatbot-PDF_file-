@@ -1,0 +1,10 @@
+# RAG Multi-File Q&A — Dependencies
+streamlit
+langchain
+langchain-community
+langchain-openai
+faiss-cpu
+pypdf
+sentence-transformers
+tiktoken
+python-dotenv
